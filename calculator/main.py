@@ -27,3 +27,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # Test case
+    calculator = Calculator()
+    test_expression = "3 + 7 * 2"
+    test_result = calculator.evaluate(test_expression)
+    print(f"{test_expression} = {test_result}")
